@@ -114,3 +114,11 @@ footer {
     padding: 12px;
     font-size: 17px;
 }
+
+
+
+
+input:focus{
+    outline: none;
+    border: solid blue;
+}
