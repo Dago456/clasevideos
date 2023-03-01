@@ -25,19 +25,23 @@ nav>a:hover {
     background: #50465b;
 }
 
-header{
+header {
     background: #50465b;
-    
+
 }
-.titull{
+
+.titull {
     color: #ffffff;
 }
-.subti{
+
+.subti {
     color: #4f3c64;
 }
-.subtiti{
+
+.subtiti {
     color: #ffffff;
 }
+
 footer {
     background: #414141;
     padding: 60px 0 30px 0;
@@ -78,17 +82,35 @@ footer {
     margin: 20px 0 0 0;
 
 }
-.contenedorData{
+
+.contenedorData {
     width: 600px;
-    background:#a382df;
+    background: #a382df;
     padding: 50px;
     margin: auto;
     margin-top: 100px;
     border-radius: 50px;
+    box-shadow: 7PX 13PX 37PX #4f3c64;
 }
-.datos{
+
+.datos {
     width: 100%;
     background: white;
     padding: 5px;
     border-radius: 6px;
+    margin-bottom: 13px;
+    border: 1px solid#991ddc;
+}
+
+.contenedorData>p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.boton {
+    width: 100%;
+    background: #991ddc;
+    border: none;
+    padding: 12px;
+    font-size: 17px;
 }
