@@ -6,22 +6,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactenos</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <header>
-        <br><br><br>
+        
         <nav>
             <a href="videos.html">Inicio...</a>
             <a href="productos.html">Productos</a>
             <a href="form.html">Formulario de clase</a>
         </nav>
-        <br><br><br>
+        <br><br><br><br><br>
         <center>
-            <h1><big>¿ Busca contactarnos ?</big></h1>
-            <h3>ingrese sus datos y resibira informacion sobre nosotros...</h3>
+            <h1 class="titull"><big>¿ Busca contactarnos ?</big></h1>
+            <h3 class="titull">ingrese sus datos y resibira informacion sobre nosotros...</h3>
         </center>
+        <br><br><br>
     </header>
+    <section>
+        <article>
+            <div>
+                <br><br><br>
+                <p>Registre sus datos basicos</p>
+                <br><br>
+                <label for="">Nombres <input type="text" required name="nombre" autofocus></label>
+                <br><br>
+                <label for="">Apellidos <input type="text" required name="apellidos"></label>
+                <br><br>
+                <label for="">Edad <input type="number" name="edad" min="18" id="idEdad"></label>
+                <br><br>
+                <label for="">Telefono <input type="tel" required name="telefono"></label>
+                <br><br><br>
+                <p>para mejorar nuestra comunicacion con usted llene los siguientes campos</p>
+                <br><br>
+                <label for="">Email: <input type="email" required name="correo" multiple></label>
+                <br><br>
+                <label for="">selecione ciudad en la que se encuentra <select name="ciudad">
+                        <option value="bg" selected="selected">Bogota </option>
+                        <option value="mll">Medellin </option>
+                        <option value="cli">Cali </option>
+                        <option value="prr">Pereira </option>
+                        <option value="ctg">Cartagena </option>
+                    </select></label>
+                <label for=""><input type="checkbox" value="acepta" required name="condiciones" checked="checked">Acepto
+                    los terminos y condiciones de uso de mis datos personales</label>
+<br><br>
+<p>fecha en la que desee ser contactado...</p>
+<label for="">Fecha <input type="date" name="fecha" value="2023-03-5"></label>
+<br><br><br>
+<p><input type="submit" value="Enviar"></p>
+<br><br><br>
+<h3>pronto nos estaremos comunicando con usted </h3>
+            </div>
+        </article>
+    </section>
 
 </body>
 
