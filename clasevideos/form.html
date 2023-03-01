@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="videos.html">Inicio...</a>
+            <a href="productos.html">productos</a>
+            <a href="data.html">Contactenos</a>
+        </nav>
+        <br><br><br>
+        <h1 class="titull"><big>Formulario para la clase</big></h1>
+        <br><br><br>
+    </header>
+    <section>
+        <article>
+            <div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <form action="recibir.php" method="get">
+                    <label>Nombre: <input type="text" required name="nombre" autofocus></label>
+                    <br>
+                    <br>
+                    <br>
+                    <label>Apellidos: <input type="text" placeholder="Escribe los dos apellidos" name="ape" size="25"
+                            maxlength="15"></label>
+                    <br>
+                    <br>
+                    <br>
+                    <label>Localidad: <input type="text" value="chapinero" name="localidad" size="18"
+                            minlength="2"></label>
+                    <br>
+                    <br>
+                    <br>
+                    <label>Quien es tu amigo?? <input list="lista"></label>
+                    <datalist id="lista">
+                        <option value="Brayan">
+                        <option value="Baymax">
+                        <option value="Fernanda">
+                        <option value="Xavi">
+                    </datalist>
+                    <br>
+                    <br>
+                    <br>
+                    <label>Sexo: Hombre <input type="radio" name="sexo" value="H"> Mujer <input type="radio" name="sexo"
+                            value="M"></label>
+                    <br>
+                    <br>
+                    <br>
+                    <label>Cantidad: <input type="number" name="numero" step="10" /></label>
+                    <br>
+                    <br>
+                    <br>
+                    <label>Edad: <input type="number" name="edad" min="18" max="70" id="idEdad"></label>
+                    <br>
+                    <br>
+                    <br>
+                    <label>Contraseña: <input type="password" name="clave"></label>
+                    <br>
+                    <br>
+                    <br>
+                    <label>Fecha <input type="date" name="fecha" value="2023-02-23" /></label>
+                    <br>
+                    <br>
+                    <br>
+                    <label>email: <input type="email" name="correo" multiple></label>
+                    <br>
+                    <br>
+                    <br>
+                    <label>Hora <input type="time" name="horaInicio" value="11:11" /></label>
+                    <br>
+                    <br>
+                    <br>
+                    <label>Telefono <input type="tel" name="telefono" /></label>
+                    <br>
+                    <br>
+                    <br>
+                    <label> Buscar <input type="search" name="busqueda" /></label>
+                    <br>
+                    <br>
+                    <br>
+                    <label> <textarea name="area" cols="40" rows="4" minlength="5"
+                            maxlength="200">Escriba su opinion sobre esta aplicacion</textarea></label>
+                    <br>
+                    <br>
+                    <br>
+                    <label>Selecione su pais : <select name="pais">
+                            <option value"es"> España</option>
+                            <option value"mx"> México</option>
+                            <option value"co" selected="selected"> Colombia</option>
+                        </select></label>
+                    <br>
+                    <br>
+                    <br>
+                    <label><input type="checkbox" value"acepta" name="condiciones" checked="checked"> Acepto terminos y
+                        condiciones</label>
+                    <br>
+                    <br>
+                    <br>
+                    <p> <input type="reset" value="Borrar" /> </p>
+                    <p><input type="submit" value="Enviar"></p>
+                </form>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Correo:</h4>
+                <p>Christiandavidgomez466@gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>git hub:</h4>
+                <p>https://github.com/Dago456</p>
+            </div>
+            <div class="content-foo">
+                <h4>ubicacion</h4>
+                <p>Colombia</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; DAGO.Design | David Gomez</h2>
+    </footer>
+</body>
+
+</html>
