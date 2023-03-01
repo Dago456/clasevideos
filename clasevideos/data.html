@@ -30,17 +30,17 @@
                 <br><br><br>
                 <p>Registre sus datos basicos</p>
                 <br><br>
-                <label>Nombres <input type="text" required name="nombre" autofocus></label>
+                <label>Nombres <input class="datos" type="text" required name="nombre" autofocus></label>
                 <br><br>
-                <label>Apellidos <input type="text" required name="apellidos"></label>
+                <label>Apellidos <input class="datos" type="text" required name="apellidos"></label>
                 <br><br>
-                <label>Edad <input type="number" name="edad" min="18" id="idEdad"></label>
+                <label>Edad <input class="datos" type="number" name="edad" min="18" id="idEdad"></label>
                 <br><br>
-                <label>Telefono <input type="tel" required name="telefono"></label>
+                <label>Telefono <input class="datos" type="tel" required name="telefono"></label>
                 <br><br><br>
                 <p>para mejorar nuestra comunicacion con usted llene los siguientes campos</p>
                 <br><br>
-                <label>Email: <input type="email" required name="correo" multiple></label>
+                <label>Email: <input class="datos" type="email" required name="correo" multiple></label>
                 <br><br>
                 <label>selecione ciudad en la que se encuentra <select name="ciudad">
                         <option value="bg" selected="selected">Bogota </option>
@@ -50,15 +50,16 @@
                         <option value="ctg">Cartagena </option>
                     </select></label>
                 <br><br><br>
-                <label><input type="checkbox" value="acepta" required name="condiciones" checked="checked">Acepto
+                <label><input class="datos" type="checkbox" value="acepta" required name="condiciones" checked="checked">Acepto
                     los terminos y condiciones de uso de mis datos personales</label>
                 <br><br>
                 <p>fecha en la que desee ser contactado...</p>
-                <label>Fecha <input type="date" name="fecha" value="2023-02-23" /></label>
+                <label>Fecha <input class="datos" type="date" name="fecha" value="2023-02-23" /></label>
                 <br><br><br>
-                <p><input type="submit" value="Enviar"></p>
+                <p><input class="boton" type="submit" value="Enviar"></p>
                 <br><br><br>
                 <h3>pronto nos estaremos comunicando con usted </h3>
+            <br><br><br>
             </div>
         </article>
     </section>
